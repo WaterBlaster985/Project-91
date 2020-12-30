@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Screen</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1> Game Screen</h1>
+     <h2> <span id="p1"></span> : <span id="p1score"></span></h2>
+    <h2> <span id="p2"></span> : <span id="p2score"></span></h2>
+    <center>
+        <div id="masterdiv">
+        <h1>Guess The Word</h1>
+        <h1>Question Turn: <span id="question"></span></h1>
+        <h1>Answer Turn: <span id="answer"></span></h1>
+        <div id="output"></div>
+        <h3>Send Your Word: Try putting a word which has 5 or more alphabets</h3>
+        <input type="text" id="word" class="form-control">
+        <br>
+        <button id="send" class="btn btn-success" onclick="send()">Send</button>
+        </div>
+    </center>
+    <script src="main2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
